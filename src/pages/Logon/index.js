@@ -18,7 +18,7 @@ export default function Logon(){
 
                   <input placeholder="Seu email"/>
                   <input placeholder="Sua senha"/>
-                  <button className="button" type="submit">Entrar</button>
+                  <button className="button" type="submit" to="/newProduct">Entrar</button>
 
                   <Link className="back-link" to="/register">Não possuo cadastro</Link>
               </form>
